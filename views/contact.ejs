@@ -1,0 +1,50 @@
+
+<% include partials/header %>
+
+
+<div class="container">
+
+<!-- row class give us grid system -->
+  <div class="row">
+
+      <h1 style="text-align: center;">Contact Us</h1>
+
+      <!-- In-line styling not recommended but will do for V1
+      makes form smaller -->
+
+      <div style="width: 30%; margin:30px auto; ">
+
+                <form action="" method="post">
+
+<!-- form-group class groups form items together and adds spacing -->
+
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input class="form-control" type="text" name="name" placeholder="John Doe">
+                  </div>
+
+                  <div class="form-group">
+                      <label for="exampleFormControlInput1">Email address</label>
+                      <input class="form-control" type="text" name="image" placeholder="name@example.com">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+
+                  <div class="form-group">
+
+                    <button class="btn btn-lg btn-primary btn-block">Send Message</button>
+
+                  </div>
+
+
+                </form>
+                <a href="/campgrounds">Go Back</a>
+
+      </div>
+
+  </div>
+
+</div>
