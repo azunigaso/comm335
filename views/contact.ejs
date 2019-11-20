@@ -1,50 +1,71 @@
-
 <% include partials/header %>
 
+<style media="screen">
+  body {
+    background-image: url("https://images.unsplash.com/photo-1514575619841-1a3d949d3277?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+    background-size: auto auto;
+    width: 100%;
+    height: auto;
+  }
+
+  div.container{
+
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+  }
+
+
+</style>
 
 <div class="container">
 
-<!-- row class give us grid system -->
+  <!-- row class give us grid system -->
   <div class="row">
 
-      <h1 style="text-align: center;">Contact Us</h1>
+    <h1 style="text-align: center;">Contact Us</h1>
 
-      <!-- In-line styling not recommended but will do for V1
+    <!-- In-line styling not recommended but will do for V1
       makes form smaller -->
 
-      <div style="width: 30%; margin:30px auto; ">
+    <div style="width: 30%; margin:30px auto; ">
 
-                <form action="" method="post">
+      <form action="" method="post">
 
-<!-- form-group class groups form items together and adds spacing -->
+        <!-- form-group class groups form items together and adds spacing -->
 
-                  <div class="form-group">
-                    <label for="exampleFormControlInput1">Name</label>
-                    <input class="form-control" type="text" name="name" placeholder="John Doe">
-                  </div>
+        <div class="form-group">
+          <label for="Name">Name</label>
+          <input class="form-control" type="text" name="name" placeholder="John Doe">
+        </div>
 
-                  <div class="form-group">
-                      <label for="exampleFormControlInput1">Email address</label>
-                      <input class="form-control" type="text" name="image" placeholder="name@example.com">
-                  </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input class="form-control" type="text" name="image" placeholder="name@example.com">
+        </div>
 
-                  <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
 
-                  <div class="form-group">
+        <div class="form-group">
 
-                    <button class="btn btn-lg btn-primary btn-block">Send Message</button>
+          <button class="btn btn-lg btn-primary btn-block">Send Message</button>
 
-                  </div>
+        </div>
 
+      </form>
+      <a href="/campgrounds">Go Back</a>
 
-                </form>
-                <a href="/campgrounds">Go Back</a>
-
-      </div>
+    </div>
 
   </div>
 
 </div>
+
+<% include partials/footer %>

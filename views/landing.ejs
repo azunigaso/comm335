@@ -1,28 +1,49 @@
-<% include partials/header  %>
+<% include partials/header %>
 
-<div class="container"">
+<style media="screen">
+  body {
+    background-image: url("https://images.unsplash.com/photo-1514575619841-1a3d949d3277?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+    background-size: auto auto;
+    width: 100%;
+    height: auto;
+  }
 
-<!-- row class give us grid system -->
+  #content {
+    text-align: center;
+    padding-top: 175px;
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  }
+</style>
+
+<div class="container">
   <div class="row">
-
-
-      <h1 style="text-align: center; margin:70px auto;">Landing Page Demo</h1>
-
-      <!-- In-line styling not recommended but will do for V1
-      makes form smaller -->
-
-      <div style="width: 30%; margin:30px auto; ">
-
-                <form action="/about" method="get">
-
-<!-- form-group class groups form items together and adds spacing -->
-                  <div class="form-group">
-                    <button class="btn btn-lg btn-primary btn-block">Learn More</button>
-                  </div>
-                </form>
-
+    <div class="col-lg-12">
+      <div id="content">
+        <h1>Merge Gaming</h1>
+        <h3>E-Sport Team with a Gamer Forward Facing Mentality</h3>
+        <hr>
+        <form class="" action="/about" method="get">
+          <div class="form-group">
+            <button>Learn More</button>
+          </div>
+        </form>
       </div>
-
+    </div>
   </div>
-
 </div>
+<% include partials/footer %>

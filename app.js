@@ -25,5 +25,5 @@ res.render("contact.ejs");
 });
 
 app.listen(3000,function(){
-  console.log("Company X server active");
+  console.log("Merge server active");
 });
