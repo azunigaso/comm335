@@ -1,0 +1,23 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1514575619841-1a3d949d3277?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+  background-size: auto auto;
+  width: 100%;
+  height: auto;
+  /* background-color: #46b5d1; */
+}
+
+
+h1{
+
+  text-align: center;
+}
+
+div.containers{
+
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Share Tech', sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}

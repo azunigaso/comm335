@@ -1,40 +1,18 @@
 <% include partials/header %>
+<link rel="stylesheet" href="public\css\contact.css">
 
-<style media="screen">
-  body {
-    background-image: url("https://images.unsplash.com/photo-1514575619841-1a3d949d3277?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
-    background-size: auto auto;
-    width: 100%;
-    height: auto;
-  }
-
-  div.container{
-
-    text-align: center;
-    padding-top: 30px;
-    font-family: 'Share Tech', sans-serif;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-
-  }
-
-
-</style>
-
-<div class="container">
+<div class="containers">
 
   <!-- row class give us grid system -->
   <div class="row">
-
-    <h1 style="text-align: center;">Contact Us</h1>
 
     <!-- In-line styling not recommended but will do for V1
       makes form smaller -->
 
     <div style="width: 30%; margin:30px auto; ">
 
-      <form action="" method="post">
+    <h1 class="display-2">Contact Us</h1>
+      <form action="/contact" method="post">
 
         <!-- form-group class groups form items together and adds spacing -->
 
@@ -60,7 +38,7 @@
         </div>
 
       </form>
-      <a href="/campgrounds">Go Back</a>
+      <a href="/">Go Back</a>
 
     </div>
 

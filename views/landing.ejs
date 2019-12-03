@@ -1,34 +1,5 @@
 <% include partials/header %>
-
-<style media="screen">
-  body {
-    background-image: url("https://images.unsplash.com/photo-1514575619841-1a3d949d3277?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
-    background-size: auto auto;
-    width: 100%;
-    height: auto;
-  }
-
-  #content {
-    text-align: center;
-    padding-top: 175px;
-    font-family: 'Share Tech', sans-serif;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-  }
-
-  button {
-  background-color: #008CBA;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-
-  }
-</style>
+<link rel="stylesheet" href="/public/css/landing.css">
 
 <div class="container">
   <div class="row">
@@ -36,10 +7,9 @@
       <div id="content">
         <h1>Merge Gaming</h1>
         <h3>E-Sport Team with a Gamer Forward Facing Mentality</h3>
-        <hr>
         <form class="" action="/about" method="get">
-          <div class="form-group">
-            <button>Learn More</button>
+          <div class="form-group" id="button">
+            <button class = "btn info">Learn More</button>
           </div>
         </form>
       </div>
