@@ -22,13 +22,13 @@ h3 {
 
 #firstRow {
   padding-top: 50px;
-  padding-left: 85px;
+  /* padding-left: 85px; */
 }
 
 #secondRow {
 
   padding-top: 50px;
-  padding-left: 85px;
+  /* padding-left: 85px; */
   padding-bottom: 80px;
 
 }
@@ -40,8 +40,7 @@ h3 {
 padding-left: 200px;
 font-family: 'Share Tech', sans-serif;
 text-align: center;
- -webkit-text-stroke: 1px black;
-
+ /* -webkit-text-stroke: 1px black; */
 
 }
 
@@ -52,5 +51,9 @@ text-align: center;
 #secondSection{
 
 text-align: center;
-background-color: #46b5d4;
+font-family: 'Share Tech', sans-serif;
+-webkit-text-stroke: 1px black;
+
+
+
 }
