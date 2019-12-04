@@ -39,7 +39,7 @@ app.post("/contact", function(req, res) {
 
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, function(){
     console.log(`Merge server running on port ${ PORT }`);
 });
 
