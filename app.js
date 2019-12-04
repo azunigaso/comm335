@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const path = require('path');
+const PORT = process.env.PORT || 3000;
 
 // Tells express to use bodyParser for post requests variables
 app.use(bodyParser.urlencoded({
@@ -29,9 +30,7 @@ app.get("/contact", function(req, res) {
   res.render("contact.ejs");
 });
 
-app.post("/contact", function(req,res){
-
-
+app.post("/contact", function(req, res) {
 
   // redirect back to contact page
 
@@ -40,6 +39,10 @@ app.post("/contact", function(req,res){
 
 });
 
-app.listen(3000, function() {
-  console.log("Merge server active");
+app.listen(PORT, () => {
+    console.log(`Merge server running on port ${ PORT }`);
 });
+
+// app.listen(3000, function() {
+//   console.log("Merge server active");
+// });
