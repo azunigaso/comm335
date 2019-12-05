@@ -18,26 +18,39 @@ app.get("/", function(req, res) {
   res.render("landing.ejs");
 });
 
+//About Page
 app.get("/about", function(req, res) {
   res.render("about.ejs");
 });
 
+//Merch Page
 app.get("/merch", function(req, res) {
   res.render("merch.ejs");
 });
 
+//Contact Page
 app.get("/contact", function(req, res) {
   res.render("contact.ejs");
 });
 
+//Contact form post route
 app.post("/contact", function(req, res) {
 
   // redirect back to contact page
-
   res.redirect("/contact");
-
-
 });
+
+//Blog Page
+app.get("/blog", function(req, res) {
+  res.render("blog.ejs");
+});
+
+//Influencers Page
+app.get("/influencers", function(req, res) {
+  res.render("influencers.ejs");
+});
+
+
 
 app.listen(PORT, function(){
     console.log(`Merge server running on port ${ PORT }`);
