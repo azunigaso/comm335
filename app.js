@@ -40,10 +40,6 @@ app.post("/contact", function(req, res) {
   res.redirect("/contact");
 });
 
-//Blog Page
-app.get("/blog", function(req, res) {
-  res.render("blog.ejs");
-});
 
 //Influencers Page
 app.get("/influencers", function(req, res) {
@@ -52,10 +48,6 @@ app.get("/influencers", function(req, res) {
 
 
 
-app.listen(PORT, function(){
-    console.log(`Merge server running on port ${ PORT }`);
+app.listen(PORT, function() {
+  console.log(`Merge server running on port ${ PORT }`);
 });
-
-// app.listen(3000, function() {
-//   console.log("Merge server active");
-// });
