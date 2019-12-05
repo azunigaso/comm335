@@ -1,5 +1,9 @@
-Merge Gaming is an E-sports team based company with a gamer forward facing mentality.
+Static E-Sports gaming site for my COMM 335 course.
 
-Main functionalities of the page include:
--Shopping Cart
--Contact us that sends email to user in confirmation and follow up
+Pages Include:
+
+- About
+- Blog
+- Contact
+- influencers
+- Merch
