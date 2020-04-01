@@ -1,10 +1,11 @@
-Static E-Sports gaming site for my COMM 335 course.
+# Static E-Sports gaming site for my COMM 335 course.
 
-Pages Include:
+### Pages Include:
 
-- About
-- Contact
-- influencers
-- Merch
+* About
+* Contact
+* influencers
+* Merch
 
-Live-Link: https://merge-gaming.herokuapp.com/
+# Live-Link:
+* https://merge-gaming.herokuapp.com/
