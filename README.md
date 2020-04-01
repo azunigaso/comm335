@@ -7,5 +7,5 @@
 * influencers
 * Merch
 
-# Live-Link:
+### Live-Link:
 * https://merge-gaming.herokuapp.com/
